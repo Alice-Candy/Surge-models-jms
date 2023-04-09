@@ -7,4 +7,4 @@ jms = script-name=jms, title="✈️ 𝙅𝙈𝙎 𝙄𝙣𝙛𝙤",
 
 [Script]
 
-jms = type=generic,script-path=jms.js, 
+jms = type=generic,script-path= https://raw.githubusercontent.com/Alice-Candy/Surge-models-jms/main/jms.js 
