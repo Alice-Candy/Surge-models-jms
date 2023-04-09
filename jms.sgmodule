@@ -1,0 +1,10 @@
+#!name=✈️ 𝙅𝙈𝙎 𝙄𝙣𝙛𝙤
+#!desc=𝙅𝙈𝙎流量问一哈还有多少
+#!system=ios
+
+[Panel]
+jms = script-name=jms, title="✈️ 𝙅𝙈𝙎 𝙄𝙣𝙛𝙤", 
+
+[Script]
+
+jms = type=generic,script-path=jms.js, 
