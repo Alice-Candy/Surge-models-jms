@@ -13,9 +13,16 @@ $httpClient.get(url, function(error, response, data) {
     const bwResetDay = result.bw_reset_day_of_month;
     
     const today = new Date();
-    let month = today.getMonth() + 2;
+    const month = today.getMonth() + 2;
+		
     if (month > 12) {
         month = 1;
+    }
+
+    const day = today.getDate();
+
+    if (day < bwResetDay) {
+	month -= 1
     }
     
     const panel = {
