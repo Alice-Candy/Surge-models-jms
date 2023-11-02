@@ -13,7 +13,7 @@ $httpClient.get(url, function(error, response, data) {
     const bwResetDay = result.bw_reset_day_of_month;
     
     const today = new Date();
-    const month = today.getMonth() + 2;
+    let month = today.getMonth() + 2;
 		
     if (month > 12) {
         month = 1;
