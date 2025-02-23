@@ -1,6 +1,6 @@
 #!name=✈️ 𝙅𝙈𝙎 𝙄𝙣𝙛𝙤
 #!desc=𝙅𝙈𝙎流量问一哈还有多少
-#!system=surge5
+#!system=ios
 
 [Panel]
 jms = script-name=jms, title="✈️ 𝙅𝙈𝙎 𝙄𝙣𝙛𝙤", 
