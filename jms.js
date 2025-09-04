@@ -41,7 +41,7 @@ $httpClient.get(url, function(error, response, data) {
 
   const panel = {
     title: "✈️ 𝙅𝙈𝙎 𝙄𝙣𝙛𝙤",
-    content: `已用流量:${usedGB}GB\n剩余流量:${remainingGB}GB\n重置日期:${nextResetMonth}月${bwResetDay}号`,
+    content: `已用流量: ${usedGB}GB\n剩余流量: ${remainingGB}GB\n重置日期: ${nextResetMonth}月${bwResetDay}号`,
     icon: 'airplane.circle.fill',
     'icon-color': '#000000',
   };
